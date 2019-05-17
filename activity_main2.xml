@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                android:paddingBottom="40dp">
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#bed774"
+                        android:text="English"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:background="#8d74d7"
+                        android:text="English to Hindi "
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:background="#e69b9e"
+                        android:text="English to Bengali  "
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:background="#748dd7"
+                        android:text="English to Nepali"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:background="#9be6be"
+                        android:text="English to Punjabi"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:background="#ffc966"
+                        android:text="English to Gujrati"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:background="#74bfd7"
+                        android:text="English to Tamil"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:background="#d78d74"
+                        android:text="English to Telegu"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:background="#bfd774"
+                        android:text="English to Urdu"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/button10"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:background="#d774bf"
+                        android:text="English to Marathi"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:background="#74d78d"
+                        android:text="English to Malayalam"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+            </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
