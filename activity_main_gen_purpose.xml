@@ -22,7 +22,7 @@
             android:paddingBottom="40dp">
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/buttonAZ"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -30,13 +30,13 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="20dp"
                 android:background="#bed774"
-                android:text="English"
+                android:text="A-Z Basic Words"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/buttonNum"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -44,13 +44,13 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="20dp"
                 android:background="#8d74d7"
-                android:text="English to Hindi "
+                android:text="Numbers"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/buttonCol"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -58,13 +58,13 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="20dp"
                 android:background="#e69b9e"
-                android:text="English to Bengali  "
+                android:text="Colors"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/buttonABI"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -72,13 +72,13 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="20dp"
                 android:background="#748dd7"
-                android:text="English to Nepali"
+                android:text="Animals, Birds and Insects"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonBP"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -86,13 +86,13 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="20dp"
                 android:background="#9be6be"
-                android:text="English to Punjabi"
+                android:text="Body Parts"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/buttonCalTime"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -100,69 +100,13 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="20dp"
                 android:background="#ffc966"
-                android:text="English to Gujrati"
+                android:text="Calendar and Time"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/button7"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginTop="20dp"
-                android:background="#74bfd7"
-                android:text="English to Tamil"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/button8"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginTop="20dp"
-                android:background="#d78d74"
-                android:text="English to Telegu"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/button9"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginTop="20dp"
-                android:background="#bfd774"
-                android:text="English to Urdu"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/button10"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginTop="20dp"
-                android:background="#d774bf"
-                android:text="English to Marathi"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/button11"
+                android:id="@+id/buttonFood"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -170,11 +114,152 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="20dp"
                 android:background="#74d78d"
-                android:text="English to Malayalam"
+                android:text="Food and Beverages"
                 android:textStyle="bold"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
+            <Button
+                android:id="@+id/buttonVehi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#74bfd7"
+                android:text="Vehicles"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonSpGa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#d78d74"
+                android:text="Sports and Games"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/buttonCC"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#d774bf"
+                android:text="Countries and Cities"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonJob"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#FF00FF"
+                android:text="Professions, Trades, Jobs and Designations"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonRel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#008080"
+                android:text="Family, Kinship and Relationship"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonPerson"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#008000"
+                android:text="Famous People and Personalities"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonBrands"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#C0C0C0"
+                android:text="Brands"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonClo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#808000"
+                android:text="Clothes and Accessories"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/buttonPhrases"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#800000"
+                android:text="Basic Phrases and Questions"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonIdioms"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="#FF0000"
+                android:text="English Idioms"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp" />
         </LinearLayout>
 
     </ScrollView>

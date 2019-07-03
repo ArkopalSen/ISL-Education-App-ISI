@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <VideoView
-        android:id="@+id/videoView"
+        android:id="@+id/videoViewWAP"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_alignParentStart="true"
@@ -18,7 +18,7 @@
         android:layout_alignParentTop="true"
         />
     <ImageButton
-        android:id="@+id/startButton"
+        android:id="@+id/startWAPButton"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginTop="160dp"
@@ -36,7 +36,7 @@
 
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_below="@+id/videoView"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"
@@ -47,91 +47,50 @@
 
 
             <TextView
-                android:id="@+id/wordTextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/videoView"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:textColor="#d78d74"
-                android:layout_marginLeft="20dp"
-                android:textSize="45dp"
-                android:textStyle="bold"
-                android:visibility="visible" />
-
-
-            <TextView
-                android:id="@+id/typeTextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/wordTextView"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="15dp"
-                android:layout_marginLeft="20dp"
-                android:text="Type"
-                android:textColor="#8d74d7"
-                android:textSize="18dp"
-                android:textStyle="bold"
-                android:visibility="visible" />l
-
-            <TextView
-                android:id="@+id/synTextView"
+                android:id="@+id/wordPairTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/typeTextView"
                 android:layout_centerHorizontal="true"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="15dp"
-                android:text="Synonyms"
+                android:text="Word"
                 android:textColor="#d74b7f"
                 android:textSize="18dp"
                 android:textStyle="bold"
                 android:visibility="visible" />
 
-
+            <Button
+                android:id="@+id/wordButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#d74b7f"
+                android:text="  Play Video  "
+                android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/antTextView"
+                android:id="@+id/antPairTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/synTextView"
+                android:layout_below="@+id/wordTextView"
                 android:layout_centerHorizontal="true"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="15dp"
-                android:text="Antonyms"
+                android:text="Antonym"
                 android:textColor="#74bfd7"
                 android:textSize="18dp"
                 android:textStyle="bold"
                 android:visibility="visible" />
-
-
-            <TextView
-                android:id="@+id/exampleTextView"
-                android:layout_width="match_parent"
+            <Button
+                android:id="@+id/antButton"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/antTextView"
-                android:layout_centerHorizontal="true"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="15dp"
-                android:text="Example-Synonyms"
-                android:textColor="#d74b7f"
-                android:textSize="18dp"
+                android:background="#74bfd7"
                 android:textStyle="bold"
-                android:visibility="visible" />
+                android:text="  Play Video  " />
 
-            <TextView
-                android:id="@+id/exampleAntTextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/exampleTextView"
-                android:layout_centerHorizontal="true"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="15dp"
-                android:text="Example-Antonyms"
-                android:textColor="#74bfd7"
-                android:textSize="18dp"
-                android:textStyle="bold"
-                android:visibility="visible" />
 
             <ImageView
                 android:id="@+id/imageView"
