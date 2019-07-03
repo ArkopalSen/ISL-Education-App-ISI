@@ -42,10 +42,8 @@ public class Main2Activity extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Bundle bundle = new Bundle();
-                bundle.putInt("typeOfList", 1);
-                Intent i= new Intent(Main2Activity.this,Main3Activity.class);
-                i.putExtras(bundle);
+
+                Intent i= new Intent(Main2Activity.this,MainTypeOfPurposeActivity.class);
                 startActivity(i);
             }
         });
